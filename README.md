@@ -26,7 +26,7 @@ Script ini memiliki tampilan **berwarna dan menarik di CMD/Termux**, serta dapat
 ===================================================
 Pilih mode perhitungan:
 
-1. Hitung satu produk
+1. Hitung satu produk (single)
 2. Hitung banyak produk (massal)
 3. Lihat file hasil komisi
 4. Keluar
@@ -41,7 +41,7 @@ Harga Produk : Rp37,500.00
 Persentase   : 11.5%
 Komisi Dapat : Rp4,312.50
 ----------------------------------------
-✅ Hasil disimpan ke 'hasil_komisi.txt'
+✅ Hasil disimpan ke 'hasil.txt'
 
 
 ---
@@ -50,7 +50,7 @@ Komisi Dapat : Rp4,312.50
 
 ✅ Tampilan berwarna & interaktif (mendukung Termux dan CMD)
 ✅ Mode perhitungan tunggal atau massal
-✅ Penyimpanan otomatis hasil ke file hasil_komisi.txt
+✅ Penyimpanan otomatis hasil ke file hasil.txt
 ✅ Opsi melihat hasil langsung dari menu
 ✅ Rapi dan mudah digunakan, tanpa koneksi internet
 
@@ -90,7 +90,7 @@ pip install colorama
 
 Ketik perintah berikut di terminal:
 
-python komisi_shopee.py
+python main.py
 
 
 ---
@@ -99,7 +99,7 @@ python komisi_shopee.py
 
 Setiap perhitungan akan otomatis tersimpan di file:
 
-hasil_komisi.txt
+hasil.txt
 
 Contoh isi file:
 
@@ -121,7 +121,7 @@ Gunakan mode massal untuk menghitung banyak produk sekaligus.
 
 Hasil bisa dilihat kapan saja lewat menu “Lihat file hasil komisi”.
 
-File hasil_komisi.txt akan otomatis dibuat di folder yang sama dengan script.
+File hasil.txt akan otomatis dibuat di folder yang sama dengan script.
 
 
 
